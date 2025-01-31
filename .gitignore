@@ -1,0 +1,86 @@
+venv 
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Environment directories
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.project
+.pydevproject
+
+# Spark
+spark-warehouse/
+metastore_db/
+*.log
+derby.log
+
+# Data and Models
+*.pkl
+*.joblib
+*.h5
+*.model
+*.parquet
+models/saved/*
+
+# System specific
+.DS_Store
+Thumbs.db
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# Distribution / packaging
+.Python
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Testing
+.coverage
+.tox/
+.pytest_cache/
+htmlcov/
+.coverage.*
+nosetests.xml
+coverage.xml
+*.cover
+
